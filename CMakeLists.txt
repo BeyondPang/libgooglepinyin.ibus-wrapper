@@ -1,3 +1,6 @@
+project(ibus-googlepinyin)
+cmake_minimum_required(VERSION 2.6)
+
 set(IBUS_PREFIX /usr)
 set(IBUS_GOOGLEPINYIN_PKGDATADIR ${IBUS_PREFIX}/share/ibus-googlepinyin)
 set(IBUS_GOOGLEPINYIN_VERSION 0.1.1)
